@@ -1,0 +1,77 @@
+*{ 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{ 
+  background-color: #e5e5f7,transparent;
+  opacity: 1;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 800px;
+  background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #44f774, 10px, transparent 20px, transparent 10px);
+  background-blend-mode: multiply;
+}
+.container{ 
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  background-color: rgb(255, 0, 0) transparent;
+  }
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  
+  margin-top: 0px;
+
+  padding: 40px;
+  background-color: rgb(245, 179, 179) transparent;
+}
+.content > label,input,button{
+  margin: 6px;
+}
+label{ 
+  font-size: 30px;
+  color: white;
+  font-family: monospace;
+}
+input{ 
+  padding: 16px;
+  border-radius: 10px;
+  width: 400px;
+}
+button{
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: rgb(89, 226, 89);
+  font-size: 15px;
+  width: 200px;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Delete{
+  background-color: rgb(216, 74, 74);
+}
+
+h1{ 
+  text-align: center;
+  margin-top: 10px;
+  font-family: monospace;
+  color: wheat;
+  font-size: 30px;
+}
+p{ 
+  font-size: 20px;
+  color: white;
+}
+img{ 
+  margin-top: 10px;
+  height: 200px;
+  width: 400px;
+}
